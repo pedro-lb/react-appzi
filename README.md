@@ -29,7 +29,7 @@ npm install --save react-appzi
 
 ## Usage
 
-Simply appzi with your token:
+Simply initialize appzi with your token:
 
 ```
 import ReactAppzi from 'react-appzi';
