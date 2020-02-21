@@ -1,7 +1,5 @@
 # React Appzi
 
-React Appzi Module
-
 [![NPM](https://img.shields.io/npm/v/react-appzi.svg)](https://www.npmjs.com/package/react-appzi) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 This is a JavaScript module that can be used to easily include [Appzi](https://www.appzi.com/) code in a website or app that uses React for its front-end codebase.
