@@ -3,11 +3,7 @@ const DEFAULT_SCRIPT_ID = 'react-appzi';
 /**
  * Provides the Appzi script to inject.
  */
-const getAppziScript = (token: string) => `
-  <!-- Appzi: Capture Insightful Feedback -->
-  <script async src="https://w.appzi.io/bootstrap/bundle.js?token=${token}"></script>
-  <!-- End Appzi -->
-`;
+const getAppziScriptSrc = (token: string) => `https://w.appzi.io/bootstrap/bundle.js?token=${token}`;
 
 /**
  * Initializes Appzi tracking.
@@ -29,7 +25,7 @@ const initialize = (token: string) => {
 
   const script = document.createElement('script');
 
-  script.innerHTML = getAppziScript(token);
+  script.src = getAppziScriptSrc(token);
   script.id = DEFAULT_SCRIPT_ID;
   script.async = true;
 
